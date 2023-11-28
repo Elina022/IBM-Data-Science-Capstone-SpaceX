@@ -29,7 +29,12 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
 
 
 
-                                dcc.Dropdown(id='site_dropdown',options=lsites,placeholder='Select a Launch Site here', searchable = True , value = 'All Sites'),
+                                dcc.Dropdown(id='site_dropdown',
+                                             options=lsites,
+                                             placeholder='Select a Launch Site here', 
+                                             searchable = True , 
+                                             value = 'All Sites'
+                                            ),
                                 html.Br(),
 
 
